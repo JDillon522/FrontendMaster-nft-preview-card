@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+main:hover {
+    .overlay {
+        .nft {
+            opacity: .65;
+        }
+        .view {
+            display: block;
+        }
+    }
+
+    .content,
+    .creator p span {
+        color: $cyan;
+    }
+}

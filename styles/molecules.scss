@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.overlay {
+    background-color: $cyan;
+    border-radius: $border-radius;
+    // height: 350px;
+    display: flex;
+
+    .view {
+        display: none;
+        height: 48px;
+        width: 48px;
+        position: relative;
+        right: 58%;
+        align-self: center;
+        // bottom: 60%;
+    }
+
+    .nft,
+    .view {
+        transition: all .5s ease-in-out;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    transition: all .5s ease-in-out;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .75rem;
+    line-height: 20.16px;
+    color: $soft-blue;
+
+    .info {
+        display: flex;
+    }
+
+    img {
+        width: 11px;
+        height: 18px;
+        display: inline-block;
+        margin: auto .25rem auto 0;
+
+        &.clock {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    .price {
+        color: $cyan;
+    }
+}
+
+.creator {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    border-top: 1px solid $border-color;
+    padding-top: calc(#{$base-spacing} / 2 );
+
+
+    img {
+        border: 1px solid $font-color;
+        width: 33px;
+        margin-right: $base-spacing;
+        border-radius: 50%;
+    }
+
+    p {
+        margin: auto 0;
+
+        span {
+            transition: all .5s ease-in-out;
+            color: $font-color;
+        }
+    }
+}
