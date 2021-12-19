@@ -1,0 +1,19 @@
+{
+  "name": "nft-preview-card",
+  "version": "1.0.0",
+  "description": "The nft preview card newbie exercise for Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDillon522/FrontendMaster-nft-preview-card.git"
+  },
+  "author": "Joseph Dillon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDillon522/FrontendMaster-nft-preview-card/issues"
+  },
+  "homepage": "https://github.com/JDillon522/FrontendMaster-nft-preview-card#readme"
+}
